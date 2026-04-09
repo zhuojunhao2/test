@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.music-play{
+	padding: 90px 300px;
+	position:fixed;
+	width:50%;
+}
+.lyric-o{
+	padding: 20px 450px;
+	position:inherit;
+	width: 100%;
+}
+.lyric{
+	font-weight: bolder;
+	font-size: 20px;
+}
+.nav-menu li:hover .submenu {  
+    display: block;  
+} 
+
+.secondary-nav {  
+  display: none; /* 默认隐藏二级导航 */  
+  position: absolute; /* 根据需要定位 */  
+}  
+  
+.primary-nav > li:hover .secondary-nav {  
+  display: block; /* 当主菜单项悬停时显示二级导航 */  
+}
